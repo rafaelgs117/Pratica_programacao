@@ -91,8 +91,13 @@ print(con_lata, con_garrafa, con_litro)
 #uma conta de R$101,53 resulta em R$33,00 para Carlos, R$33,00 para
 #André e R$35,53 para Felipe.
 
-carlos = float(input('Digite o valor da conta de Carlos: ')) // 3 # // é divisão inteira
-andre = float(input('Digite o valor da conta de Andre: ')) // 3
-felipe = float(input('Digite o valor da conta de Felipe: ')) - carlos - andre # o valor de Felipe é o total menos o que Carlos e André pagaram
+carlos = float(input('Digite o valor da conta de Carlos: '))# valor Carlos
+andre = float(input('Digite o valor da conta de Andre: '))# valor Andre
+felipe = float(input('Digite o valor da conta de Felipe: '))# o valor de Felipe 
 
-print('O total a pagar por Carlos é de R$',carlos,', por André é R$',andre,' e Felipe R$',felipe) # imprime o valor que cada um deve pagar
+total = carlos + andre + felipe # soma total das contas
+total_carlos = total //3 #divisão esata de Carlos e Andre
+total_andre = total //3
+total_felipe = total - (total_andre + total_carlos) # Felipe sera a conta dele menos a a soma de Carlos e Aandre
+
+print('Carlos e André pagaram cada um R$',total_andre,' e Felipe R$',total_felipe) # imprime o valor, como Carlos e Aandre sera o memso valor basta chamar total de um dos 2
