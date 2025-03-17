@@ -65,9 +65,9 @@ print('o salario trabalhado por horas normais e extras é de R$',salario,' menos
 
 #exercicio 7
 
-lata = 350.0 #valores referentes a cada refrigerante
-garrafa = 600.0 
-litro = 2.0
+lata = 350.0 #valor referente a ml 
+garrafa = 600.0 #valor referente a ml 
+litro = 2.0 #valor referente a litro
 
 compra1 = int(input("Latas compradas: "))
 compra2 = int(input("Garrafas compradas: "))
