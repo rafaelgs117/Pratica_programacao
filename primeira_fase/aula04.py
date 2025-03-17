@@ -61,7 +61,7 @@ salario = ((horas_trabalhadas * hora_normal) + (horas_estras * hora_extra)) #cal
 desconto = salario % 0.10 #calculo do desconto
 total = salario - desconto #calculo do salario com desconto
 
-print('o salario trabalhado por horas normais e extras é de ,',salario,' menos 10% de desconto ',total)
+print('o salario trabalhado por horas normais e extras é de R$',salario,' menos 10% de desconto R$',total)
 
 #exercicio 7
 
