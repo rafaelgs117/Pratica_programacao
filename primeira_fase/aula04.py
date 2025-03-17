@@ -96,7 +96,7 @@ andre = float(input('Digite o valor da conta de Andre: '))# valor Andre
 felipe = float(input('Digite o valor da conta de Felipe: '))# o valor de Felipe 
 
 total = carlos + andre + felipe # soma total das contas
-total_carlos = total //3 #divisão esata de Carlos e Andre
+total_carlos = total //3 #divisão exata de Carlos e Andre
 total_andre = total //3
 total_felipe = total - (total_andre + total_carlos) # Felipe sera a conta dele menos a a soma de Carlos e Aandre
 
