@@ -27,9 +27,6 @@ r2 = c1 or not c2 = true
 
 print(c1, c2)
 print(r1, r2)
-Bn = 5-10
-c1 = -10>n = falsec2 = -15>n = falser1 = c1 or c2 = falser2 = c1 and c2 = false
-print(c1,c2)print(r1,r2)
 
 #B
 n = 5-10 #valor de n é -5
